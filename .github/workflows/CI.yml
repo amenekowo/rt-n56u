@@ -26,8 +26,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7621-usb"
-            targets: "E8820V2"
+          - build_variant: "mt7620"
+            targets: "PSG1218"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
