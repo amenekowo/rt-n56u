@@ -27,7 +27,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7620"
-            targets: "E8820V2"
+            targets: "E8820V2 PSG1218"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
